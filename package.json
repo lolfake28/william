@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "homepage": "https://lolfake28.github.io/william/",
+  "name": "William",
   "description": "Personal Website ",
   "version": "1.0.0",
   "author": "William Morgan <william.morgan2818@gmail.com>",
@@ -20,7 +21,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [

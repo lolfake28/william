@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'Dart', 'Laravel', 'MySQL', 'Node.js', 'Flutter'];
+  const skills = ['Laravel', 'Bootstrap 5', 'jQuery', 'JavaScript', 'HTML', 'SASS','React','Node.js','Next.js','Git'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,18 +135,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is William Morgan and I enjoy creating things that live on the internet. My
-              interest in web and app development started back in 2017 when I decided to try editing WordPress
-              blog and visual basics taught me a lot about HTML &amp; CSS!
+              Hello! I'm William Morgan, a web and app developer with nearly two years of
+              professional experience. I specialize in Laravel and React, building modern, dynamic
+              web applications. With a strong passion for solving complex problems, I apply logical
+              and critical thinking to deliver high-quality solutions. I'm always eager to learn new
+              technologies and adapt to the ever-evolving tech landscape.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://redmed.co.id/">an pharmacy store</a>,{' '}
-              <a href="https://www.linkedin.com/company/vspngroup/?originalSubdomain=id">an financial corporate</a>,and{' '}
-              <a href="https://projectartplus.co.id/en">event corporate</a>.{' '} My
-              main focus these days is building accessible, inclusive products and digital
-              experiences for a variety of
+              <a href="https://www.ordoapps.com/">an software warehouse</a> and{' '}
+              <a href="https://redmed.co.id/">an pharmacy store</a>. My main focus these days is
+              building accessible, inclusive products and digital experiences for a variety of
               clients.
             </p>
 

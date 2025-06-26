@@ -1,7 +1,7 @@
 ---
 date: '2024-08-13'
 title: 'Software Engineer'
-company: 'RedMed'
+company: 'REDMED'
 location: 'Surabaya, Indonesia'
 range: 'Dec 2022 - May 2024'
 url: 'https://redmed.co.id/'

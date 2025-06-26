@@ -68,7 +68,9 @@ const Hero = () => {
         As a Frontend Developer at Ordo, I specialize in crafting seamless, user-centric digital
         experiences using Laravel and React. With a solid foundation in modern web technologies, I
         am passionate about creating intuitive, accessible, and engaging interfaces that prioritize
-        both functionality and user experience.
+        both functionality and user experience. Over the years, I have successfully developed 15
+        projects and completed nearly 100 tasks, continuously improving my skills and contributing
+        to meaningful outcomes.
         {/* I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
         at{' '}

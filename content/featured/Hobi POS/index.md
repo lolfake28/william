@@ -1,15 +1,16 @@
 ---
 date: '1'
-title: 'Hobi POS'
+title: 'Daybrand'
 cover: './hobipet.jpg'
+video: 'static/daybrand.mp4'
 github: 'https://gitlab.com/williammorgan086'
-external: 'https://www.hobipetstore.my.id/'
+external: 'https://daybrandstudio.com/'
 tech:
-  - VS Code
   - Laravel
-  - Vue
-  - PHP
+  - Bootstrap
+  - Javascript
+  - SASS
   
 ---
 
-Hobi POS is a web-based Point of Sale system built using Laravel and Vue.js, designed to streamline retail operations. Leveraging the robust back-end capabilities of Laravel and the dynamic, interactive front-end features of Vue.js, Hobi POS provides a seamless user experience for managing sales, inventory, and customer interactions. The system supports real-time data processing, ensuring accurate transaction tracking, inventory updates, and sales reporting. With a focus on efficiency and ease of use, Hobi POS is an ideal solution for businesses looking to enhance their retail management through a modern, web-based platform.
+DayBrand Studio is a dynamic branding landing page that showcases modern, seamless animations and captivating motion graphics. Built with rich motion assets, this website provides an engaging user experience while highlighting the studio’s creative approach to branding. With fluid transitions and interactive elements, DayBrand Studio effectively communicates its unique branding services in a visually appealing and professional manner, ensuring a memorable first impression for all visitors.

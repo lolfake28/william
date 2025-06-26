@@ -83,7 +83,9 @@ const StyledProject = styled.li`
       }
     }
     .project-image {
-      grid-column: 1 / 8;
+      grid-column: 1 / 7;
+      min-height: 310px;
+      height: 30%;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -242,7 +244,7 @@ const StyledProject = styled.li`
 
   .project-image {
     ${({ theme }) => theme.mixins.boxShadow};
-    grid-column: 6 / -1;
+    grid-column: 7 / -1;
     grid-row: 1 / -1;
     position: relative;
     z-index: 1;
@@ -260,31 +262,43 @@ const StyledProject = styled.li`
       border-radius: var(--border-radius);
       vertical-align: middle;
 
-      &:hover,
-      &:focus {
-        background: transparent;
-        outline: 0;
+      // &:hover,
+      // &:focus {
+      //   background: transparent;
+      //   outline: 0;
 
-        &:before,
-        .img {
-          background: transparent;
-          filter: none;
-        }
-      }
+      //   &:before,
+      //   .img {
+      //     background: transparent;
+      //     filter: none;
+      //   }
+      // }
 
-      &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 3;
-        transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+      // &:before {
+      //   content: '';
+      //   position: absolute;
+      //   width: 100%;
+      //   height: 100%;
+      //   top: 0;
+      //   left: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   z-index: 3;
+      //   transition: var(--transition);
+      //   background-color: var(--navy);
+      //   mix-blend-mode: screen;
+      // }
+    }
+    .video {
+      width: 100%; /* Make video responsive to container */
+      height: 100%; /* Maintain aspect ratio */
+      border-radius: var(--border-radius);
+      object-fit: cover; /* Ensures it fits well within the container */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow to video */
+
+      @media (max-width: 768px) {
+        height: 100%; /* Make video height responsive on smaller screens */
+        filter: grayscale(100%) contrast(1) brightness(50%); /* Darken video on smaller screens */
       }
     }
 
@@ -323,6 +337,7 @@ const Featured = () => {
               github
               external
               cta
+              video
             }
             html
           }
@@ -355,8 +370,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
-            const image = getImage(cover);
+            const { external, title, tech, github, cover, video, cta } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -402,8 +416,16 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                  <a href={external || github || '#'}>
+                    {video && (
+                      <video className="video" autoPlay loop muted>
+                        <source
+                          src={video.startsWith('/') ? video : `/${video}`}
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
+                    )}
                   </a>
                 </div>
               </StyledProject>

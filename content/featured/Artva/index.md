@@ -1,16 +1,15 @@
 ---
 date: '3'
-title: 'Build a Art Marketplace App'
+title: 'PDMJ'
 cover: './artva.png'
-external: ''
+video: 'static/pdmj.mp4'
+external: 'https://www.pdmj.co.id/'
 cta: ''
 tech:
-  - Flutter
-  - Dart
-  - Mysql
-  - Visual Code
+  - Laravel
+  - SASS
+  - Javascript
+  - AOS
 ---
 
-Artva is an art marketplace app built using Flutter, Dart, and PHP, designed to connect artists and buyers
-
-Leveraging the cross-platform capabilities of Flutter and Dart, Artva offers a smooth and responsive user experience on Web and Android devices.The app's back-end, powered by PHP, ensures secure and efficient management of user accounts, transactions, and art listings
+PDMJ is a professional waste management company, and I had the opportunity to develop their website using Laravel, SASS, and JavaScript. The site offers a clean, modern interface, providing essential services related to waste management with a focus on usability and efficiency. With responsive design and smooth interactions, the website serves as an effective platform for showcasing the company’s services and engaging with clients.

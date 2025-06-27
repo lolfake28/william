@@ -2,7 +2,7 @@
 date: '3'
 title: 'PDMJ'
 cover: './artva.png'
-video: 'static/pdmj.mp4'
+video: 'pdmj.mp4'
 external: 'https://www.pdmj.co.id/'
 cta: ''
 tech:

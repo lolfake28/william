@@ -2,7 +2,7 @@
 date: '4'
 title: 'Hobi Pet Store'
 cover: './redmed.png'
-video: 'static/hobi.mp4'
+video: 'hobi.mp4'
 github: ''
 external: ''
 tech:

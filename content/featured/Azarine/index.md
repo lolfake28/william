@@ -2,7 +2,7 @@
 date: '2'
 title: 'Famos'
 cover: './redmed.png'
-video: 'static/famos.mp4'
+video: 'famos.mp4'
 github: ''
 external: 'https://redmed.co.id/'
 tech:

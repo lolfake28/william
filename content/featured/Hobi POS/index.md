@@ -2,7 +2,7 @@
 date: '1'
 title: 'Daybrand'
 cover: './hobipet.jpg'
-video: 'static/daybrand.mp4'
+video: 'daybrand.mp4'
 github: 'https://gitlab.com/williammorgan086'
 external: 'https://daybrandstudio.com/'
 tech:

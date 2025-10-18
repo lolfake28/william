@@ -1,12 +1,13 @@
 ---
-date: '2021-12-21'
-title: 'Event Organizer'
-company: 'Project Art Plus'
+date: '2025-09-19'
+title: 'Associate IT Officer 2 - Level 2'
+company: 'Bank Rakyat Indonesia'
 location: 'Surabaya'
-range: 'September 2021 - June 2022'
-url: 'https://projectartplus.co.id/en'
+range: 'September 2025 - September 2025'
+url: 'https://bri.co.id/'
 ---
 
-- Coordinated with event staff to ensure smooth operations and high-quality event expierience
-- Manage online event registration and ticketing systems to ensure accurate and timely data collection
-- Negotiated with local and national media vendors to secure coverage of the event
+- Develop and maintain responsive, modular, and reusable frontend components using Vue.js and Quasar Framework.
+- Integrate frontend applications with backend services using Protocol Buffers (Protoc) and Golang.
+- Collaborate with backend, UI/UX, and DevOps teams within a microservices architecture.
+- Participate in Agile Scrum workflows, including sprint planning, daily stand-ups, and retrospectives

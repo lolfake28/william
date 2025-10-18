@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Laravel', 'Bootstrap 5', 'jQuery', 'JavaScript', 'HTML', 'SASS','React','Node.js','Next.js','Git'];
+  const skills = ['Laravel', 'Vue', 'Typescript', 'JavaScript', 'Quasar', 'SASS', 'React', 'Node.js', 'Golang', 'Git'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,20 +135,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I'm William Morgan, a web and app developer with nearly two years of
-              professional experience. I specialize in Laravel and React, building modern, dynamic
-              web applications. With a strong passion for solving complex problems, I apply logical
-              and critical thinking to deliver high-quality solutions. I'm always eager to learn new
-              technologies and adapt to the ever-evolving tech landscape.
+              Hello! I'm William Morgan, a Frontend Developer with professional experience delivering 20+ web
+              projects and completing over 100 development tasks. I specialize in building responsive,
+              high-performance interfaces using modern frameworks like <strong>Vue.js</strong>,
+              <strong>Quasar</strong>, and <strong>React</strong>, with a strong focus on clean code and
+              user experience.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.ordoapps.com/">an software warehouse</a> and{' '}
-              <a href="https://redmed.co.id/">an pharmacy store</a>. My main focus these days is
-              building accessible, inclusive products and digital experiences for a variety of
-              clients.
+              I currently work as an <strong>Associate IT Officer 2 - Level 2</strong> at
+              <a href="https://bri.co.id/">PT Bank Rakyat Indonesia (Persero) Tbk</a>, where I develop
+              enterprise-level applications within a <strong>microservices architecture</strong> using 
+              <strong> Vue.js</strong>, <strong>Quasar</strong>, and <strong>Protoc Golang</strong> for API
+              integration. I collaborate with cross-functional teams in an <strong>Agile</strong> environment to
+              create scalable digital banking solutions.
             </p>
+
+            <p>
+              Over the years, I’ve had the privilege of working with <a href="https://www.ordoapps.com/">software companies</a>,
+              <a href="https://redmed.co.id/">healthcare businesses</a>, and creative studios like DayBrand and
+              Famos. Beyond development, I enjoy mentoring aspiring frontend developers and helping them meet
+              real-world project standards.
+            </p>
+
 
             {/* <p>
               I also recently{' '}
